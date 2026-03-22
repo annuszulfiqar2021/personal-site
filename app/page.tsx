@@ -19,7 +19,7 @@ export default function Home() {
     <Box minH="100vh">
       {/* Darker background section behind hero - full width */}
       <Box bg="#F0E4D1" pb={8}>
-        <Container maxW="1100px" pt={6} px={4}>
+        <Container maxW="1210px" pt={6} px={4}>
           {/* Hero/Bio Card Section */}
           <Box
               bg="#fef5e7"
@@ -29,7 +29,7 @@ export default function Home() {
               overflow="hidden"
               boxShadow="8px 8px 0 0 rgba(0, 0, 0, 1)"
             >
-            <Grid templateColumns={{ base: '1fr', md: '25% 75%' }} minH="400px">
+            <Grid templateColumns={{ base: '1fr', md: '25% 75%' }} minH="440px">
               {/* Profile Photo */}
               <GridItem
                 bgImage="url(https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:1200/https://cdn.gamma.app/51p6258lbb2jz2i/149430402b2b44e8901aba4b38eaac8f/original/picture.jpeg)"
@@ -41,17 +41,18 @@ export default function Home() {
 
               {/* Bio Content */}
               <GridItem p={{ base: 8, md: 12 }} display="flex" flexDirection="column" justifyContent="center">
-                <VStack spacing={6} align="start">
+                <VStack spacing={6} align="center">
                   <Heading
                     as="h1"
                     fontSize={{ base: '4xl', md: '5xl' }}
                     fontWeight="900"
                     color="black"
+                    textAlign="center"
                   >
                     Annus Zulfiqar
                   </Heading>
 
-                  <Text fontSize="lg" lineHeight="1.8" color="black">
+                  <Text fontSize="lg" lineHeight="1.8" color="black" textAlign="center" px={8}>
                     I'm a PhD candidate in the Computer Science and Engineering department at the
                     University of Michigan, Ann Arbor, advised by professor{' '}
                     <Link href="https://gitlab.com/mshahbaz/mshahbaz.gitlab.io/-/wikis/home"
@@ -63,7 +64,7 @@ export default function Home() {
                     and adapt quickly to dynamic network conditions.
                   </Text>
 
-                  <HStack spacing={4} flexWrap="wrap" fontSize="lg">
+                  <HStack spacing={4} flexWrap="wrap" fontSize="lg" justifyContent="center">
                     <Link href="https://annuszulfiqar2021.github.io/files/AnnusZulfiqarCV.pdf"
                       color="#204C8E" textDecoration="underline" isExternal>
                       📝Academic CV
@@ -97,7 +98,7 @@ export default function Home() {
       </Box>
 
       {/* Publications Section - normal cream background */}
-      <Container maxW="1100px" px={4} py={12}>
+      <Container maxW="1210px" px={4} py={12}>
         <VStack spacing={0} align="stretch">
             <Heading as="h1" fontSize={{ base: '4xl', md: '5xl' }} fontWeight="900" color="black" mb={8}>
               Publications
