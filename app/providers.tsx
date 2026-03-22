@@ -12,13 +12,13 @@ const theme = extendTheme({
     global: {
       body: {
         bg: 'cream',
-        color: 'gray.800',
+        color: 'black',
       },
     },
   },
   fonts: {
-    heading: `'Inter', sans-serif`,
-    body: `'Inter', sans-serif`,
+    heading: `var(--font-montserrat), sans-serif`,
+    body: `var(--font-inconsolata), monospace`,
   },
 })
 

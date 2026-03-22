@@ -23,7 +23,7 @@ export default function Home() {
           {/* Hero/Bio Card Section */}
           <Box
               bg="#fef5e7"
-              borderRadius="20px"
+              borderRadius="15px"
               border="3px solid"
               borderColor="black"
               overflow="hidden"
@@ -35,8 +35,8 @@ export default function Home() {
                 bgImage="url(https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:1200/https://cdn.gamma.app/51p6258lbb2jz2i/149430402b2b44e8901aba4b38eaac8f/original/picture.jpeg)"
                 bgSize="cover"
                 bgPosition="center"
-                borderTopLeftRadius="18px"
-                borderBottomLeftRadius="18px"
+                borderTopLeftRadius="13px"
+                borderBottomLeftRadius="13px"
               />
 
               {/* Bio Content */}
@@ -44,14 +44,14 @@ export default function Home() {
                 <VStack spacing={6} align="start">
                   <Heading
                     as="h1"
-                    fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}
+                    fontSize={{ base: '3xl', md: '4xl' }}
                     fontWeight="900"
-                    color="gray.900"
+                    color="black"
                   >
                     Annus Zulfiqar
                   </Heading>
 
-                  <Text fontSize={{ base: 'sm', md: 'md' }} lineHeight="1.8" color="gray.800">
+                  <Text fontSize="md" lineHeight="1.8" color="black">
                     I'm a PhD candidate in the Computer Science and Engineering department at the
                     University of Michigan, Ann Arbor, advised by professor{' '}
                     <Link href="https://gitlab.com/mshahbaz/mshahbaz.gitlab.io/-/wikis/home"
@@ -63,7 +63,7 @@ export default function Home() {
                     and adapt quickly to dynamic network conditions.
                   </Text>
 
-                  <HStack spacing={4} flexWrap="wrap" fontSize={{ base: 'sm', md: 'md' }}>
+                  <HStack spacing={4} flexWrap="wrap" fontSize="md">
                     <Link href="https://annuszulfiqar2021.github.io/files/AnnusZulfiqarCV.pdf"
                       color="#204C8E" textDecoration="underline" isExternal>
                       📝Academic CV
@@ -99,7 +99,7 @@ export default function Home() {
       {/* Publications Section - normal cream background */}
       <Container maxW="1100px" px={4} py={12}>
         <VStack spacing={0} align="stretch">
-            <Heading as="h2" fontSize="4xl" fontWeight="900" color="gray.900" mb={8}>
+            <Heading as="h1" fontSize={{ base: '3xl', md: '4xl' }} fontWeight="900" color="black" mb={8}>
               Publications
             </Heading>
 
@@ -119,13 +119,13 @@ export default function Home() {
               </GridItem>
               <GridItem>
                 <VStack align="start" spacing={2}>
-                  <Heading as="h3" fontSize="xl" fontWeight="900" color="gray.900">
+                  <Heading as="h3" fontSize="2xl" fontWeight="900" color="black">
                     PhD Dissertation
                   </Heading>
-                  <Heading as="h4" fontSize="lg" fontWeight="900" color="gray.900">
+                  <Heading as="h4" fontSize="xl" fontWeight="bold" color="black">
                     Rearchitecting the End Host Network for the Terabit Per Second Era
                   </Heading>
-                  <Text fontSize="md" fontWeight="bold" fontStyle="italic">
+                  <Text fontSize="md" fontWeight="normal" fontStyle="italic">
                     Annus Zulfiqar
                   </Text>
                   <HStack spacing={2} flexWrap="wrap">
@@ -159,15 +159,15 @@ export default function Home() {
               </GridItem>
               <GridItem>
                 <VStack align="start" spacing={2}>
-                  <Heading as="h3" fontSize="xl" fontWeight="900" color="gray.900">
+                  <Heading as="h3" fontSize="2xl" fontWeight="900" color="black">
                     NSDI 2026
                   </Heading>
-                  <Heading as="h4" fontSize="lg" fontWeight="900" color="gray.900">
+                  <Heading as="h4" fontSize="xl" fontWeight="bold" color="black">
                     SpliDT: Partitioned Decision Trees for Scalable Stateful Inference at Line Rate
                   </Heading>
-                  <Text fontSize="md" fontWeight="bold">
+                  <Text fontSize="md" fontWeight="normal">
                     Murayyiam Parvez*, <em>Annus Zulfiqar*</em>, Roman Beltiukov, Shir Landau-Feibish, Walter Willinger, Arpit Gupta, Muhammad Shahbaz{' '}
-                    <Text as="span" fontWeight="bold" fontStyle="italic">(*co-primary author)</Text>
+                    <Text as="span" fontWeight="normal" fontStyle="italic">(*co-primary author)</Text>
                   </Text>
                   <HStack spacing={2} flexWrap="wrap">
                     <Link href="https://annuszulfiqar2021.github.io/papers/splidt-cr.pdf" isExternal
@@ -210,13 +210,13 @@ export default function Home() {
               </GridItem>
               <GridItem>
                 <VStack align="start" spacing={2}>
-                  <Heading as="h3" fontSize="xl" fontWeight="900" color="gray.900">
+                  <Heading as="h3" fontSize="2xl" fontWeight="900" color="black">
                     ARXIV 2025
                   </Heading>
-                  <Heading as="h4" fontSize="lg" fontWeight="900" color="gray.900">
+                  <Heading as="h4" fontSize="xl" fontWeight="bold" color="black">
                     OptiNIC: A Resilient and Tail-Optimal RDMA NIC for Distributed ML Workloads
                   </Heading>
-                  <Text fontSize="md" fontWeight="bold">
+                  <Text fontSize="md" fontWeight="normal">
                     Ertza Warraich, Ali Imran, <em>Annus Zulfiqar</em>, Shay Vargaftik, Sonia Fahmy, Muhammad Shahbaz
                   </Text>
                   <HStack spacing={2} flexWrap="wrap">
@@ -245,16 +245,16 @@ export default function Home() {
               </GridItem>
               <GridItem>
                 <VStack align="start" spacing={2}>
-                  <Heading as="h3" fontSize="xl" fontWeight="900" color="gray.900">
+                  <Heading as="h3" fontSize="2xl" fontWeight="900" color="black">
                     IEEE CAL 2025
                   </Heading>
-                  <Heading as="h4" fontSize="lg" fontWeight="900" color="gray.900">
+                  <Heading as="h4" fontSize="xl" fontWeight="bold" color="black">
                     Reimagining RDMA Through the Lens of ML
                   </Heading>
-                  <Text fontSize="md" fontWeight="bold">
+                  <Text fontSize="md" fontWeight="normal">
                     Ertza Warraich, Ali Imran, <em>Annus Zulfiqar</em>, Shay Vargaftik, Sonia Fahmy, and Muhammad Shahbaz
                   </Text>
-                  <Badge colorScheme="orange" fontSize="xs" mb={1}>
+                  <Badge colorScheme="orange" fontSize="lg" mb={1}>
                     🎖️ Broadcom Research Award
                   </Badge>
                   <HStack spacing={2} flexWrap="wrap">
@@ -283,13 +283,13 @@ export default function Home() {
               </GridItem>
               <GridItem>
                 <VStack align="start" spacing={2}>
-                  <Heading as="h3" fontSize="xl" fontWeight="900" color="gray.900">
+                  <Heading as="h3" fontSize="2xl" fontWeight="900" color="black">
                     SIGCOMM 2025 Poster
                   </Heading>
-                  <Heading as="h4" fontSize="lg" fontWeight="900" color="gray.900">
+                  <Heading as="h4" fontSize="xl" fontWeight="bold" color="black">
                     Kairo: Incremental View Maintenance for Scalable Virtual Switch Caching
                   </Heading>
-                  <Text fontSize="md" fontWeight="bold">
+                  <Text fontSize="md" fontWeight="normal">
                     <em>Annus Zulfiqar</em>, Ben Pfaff, Gianni Antichi, Muhammad Shahbaz
                   </Text>
                   <HStack spacing={2} flexWrap="wrap">
@@ -323,13 +323,13 @@ export default function Home() {
               </GridItem>
               <GridItem>
                 <VStack align="start" spacing={2}>
-                  <Heading as="h3" fontSize="xl" fontWeight="900" color="gray.900">
+                  <Heading as="h3" fontSize="2xl" fontWeight="900" color="black">
                     ASPLOS 2025
                   </Heading>
-                  <Heading as="h4" fontSize="lg" fontWeight="900" color="gray.900">
+                  <Heading as="h4" fontSize="xl" fontWeight="bold" color="black">
                     Gigaflow: Pipeline-Aware Sub-Traversal Caching for Modern SmartNICs
                   </Heading>
-                  <Text fontSize="md" fontWeight="bold">
+                  <Text fontSize="md" fontWeight="normal">
                     <em>Annus Zulfiqar</em>, Ali Imran, Venkat Kunaparaju, Ben Pfaff, Gianni Antichi, Muhammad Shahbaz
                   </Text>
                   <HStack spacing={2} flexWrap="wrap">
@@ -365,24 +365,34 @@ export default function Home() {
                     </Link>
                   </HStack>
                   <Box mt={2}>
-                    <Text fontSize="sm" fontWeight="bold" mb={1}>Media Coverage:</Text>
-                    <VStack align="start" spacing={0.5} fontSize="xs">
-                      <Link href="https://p4.org/gigaflow-modern-smartnics/" color="#204C8E" textDecoration="underline" isExternal>
-                        Gigaflow: Modern SmartNICs - P4.org
+                    <Text fontSize="md" fontWeight="normal" mb={2}>Media Coverage:</Text>
+                    <HStack spacing={2} flexWrap="wrap">
+                      <Link href="https://p4.org/gigaflow-modern-smartnics/" isExternal
+                        bg="blue.600" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                        _hover={{ bg: "blue.500" }} display="inline-block">
+                        P4.org
                       </Link>
-                      <Link href="https://cse.engin.umich.edu/stories/streamlining-cloud-traffic-with-a-gigaflow-cache" color="#204C8E" textDecoration="underline" isExternal>
-                        Streamlining Cloud Traffic with a Gigaflow Cache - UMich CSE
+                      <Link href="https://cse.engin.umich.edu/stories/streamlining-cloud-traffic-with-a-gigaflow-cache" isExternal
+                        bg="blue.600" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                        _hover={{ bg: "blue.500" }} display="inline-block">
+                        UMich CSE
                       </Link>
-                      <Link href="https://danglingpointers.substack.com/p/gigaflow-pipeline-vswitch-smartnic" color="#204C8E" textDecoration="underline" isExternal>
-                        Gigaflow: Pipeline vSwitch on SmartNIC - Dangling Pointers
+                      <Link href="https://danglingpointers.substack.com/p/gigaflow-pipeline-vswitch-smartnic" isExternal
+                        bg="blue.600" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                        _hover={{ bg: "blue.500" }} display="inline-block">
+                        Dangling Pointers
                       </Link>
-                      <Link href="https://techxplore.com/news/2025-04-gigaflow-cache-cloud-traffic-higher.html" color="#204C8E" textDecoration="underline" isExternal>
-                        Gigaflow Cache for Cloud Traffic - TechXplore
+                      <Link href="https://techxplore.com/news/2025-04-gigaflow-cache-cloud-traffic-higher.html" isExternal
+                        bg="blue.600" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                        _hover={{ bg: "blue.500" }} display="inline-block">
+                        TechXplore
                       </Link>
-                      <Link href="https://knowridge.com/2025/04/scientists-boost-cloud-speed-with-new-gigaflow-memory-system/" color="#204C8E" textDecoration="underline" isExternal>
-                        Scientists Boost Cloud Speed with Gigaflow - Knowridge
+                      <Link href="https://knowridge.com/2025/04/scientists-boost-cloud-speed-with-new-gigaflow-memory-system/" isExternal
+                        bg="blue.600" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                        _hover={{ bg: "blue.500" }} display="inline-block">
+                        Knowridge
                       </Link>
-                    </VStack>
+                    </HStack>
                   </Box>
                 </VStack>
               </GridItem>
@@ -403,13 +413,13 @@ export default function Home() {
               </GridItem>
               <GridItem>
                 <VStack align="start" spacing={2}>
-                  <Heading as="h3" fontSize="xl" fontWeight="900" color="gray.900">
+                  <Heading as="h3" fontSize="2xl" fontWeight="900" color="black">
                     SIGCOMM CCR 2023
                   </Heading>
-                  <Heading as="h4" fontSize="lg" fontWeight="900" color="gray.900">
+                  <Heading as="h4" fontSize="xl" fontWeight="bold" color="black">
                     The Slow Path Needs An Accelerator Too!
                   </Heading>
-                  <Text fontSize="md" fontWeight="bold">
+                  <Text fontSize="md" fontWeight="normal">
                     <em>Annus Zulfiqar</em>, Ben Pfaff, William Tu, Gianni Antichi, Muhammad Shahbaz
                   </Text>
                   <HStack spacing={2} flexWrap="wrap">
@@ -438,16 +448,16 @@ export default function Home() {
               </GridItem>
               <GridItem>
                 <VStack align="start" spacing={2}>
-                  <Heading as="h3" fontSize="xl" fontWeight="900" color="gray.900">
+                  <Heading as="h3" fontSize="2xl" fontWeight="900" color="black">
                     ASPLOS 2023
                   </Heading>
-                  <Heading as="h4" fontSize="lg" fontWeight="900" color="gray.900">
+                  <Heading as="h4" fontSize="xl" fontWeight="bold" color="black">
                     Homunculus: Auto-Generating Efficient Data-Plane ML Pipelines for Datacenter Networks
                   </Heading>
-                  <Text fontSize="md" fontWeight="bold">
+                  <Text fontSize="md" fontWeight="normal">
                     Tushar Swamy, <em>Annus Zulfiqar</em>, Luigi Nardi, Muhammad Shahbaz, Kunle Olukotun
                   </Text>
-                  <Badge colorScheme="orange" fontSize="xs" mb={1}>
+                  <Badge colorScheme="orange" fontSize="lg" mb={1}>
                     🎖️ Distinguished Artifact Award
                   </Badge>
                   <HStack spacing={2} flexWrap="wrap">
