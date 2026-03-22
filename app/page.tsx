@@ -13,6 +13,8 @@ import {
   Image,
   Badge,
 } from '@chakra-ui/react'
+import { FaFilePdf, FaGithub, FaLinkedin, FaEnvelope, FaDatabase } from 'react-icons/fa'
+import { SiGooglescholar } from 'react-icons/si'
 
 export default function Home() {
   return (
@@ -67,57 +69,57 @@ export default function Home() {
                   <HStack spacing={3} flexWrap="wrap" fontSize="lg" justifyContent="center">
                     <Link href="https://annuszulfiqar2021.github.io/files/AnnusZulfiqarCV.pdf"
                       isExternal bg="rgba(255, 255, 255, 0.6)" backdropFilter="blur(12px)"
-                      color="black" px={3} py={1.5} borderRadius="md" border="1.5px solid"
+                      color="black" px={3} py={1} borderRadius="md" border="1.5px solid"
                       borderColor="rgba(0, 0, 0, 0.15)" fontSize="md" fontWeight="semibold"
                       boxShadow="0 2px 8px rgba(0, 0, 0, 0.1)"
                       _hover={{ bg: "rgba(255, 255, 255, 0.8)", boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)" }}
                       display="inline-flex" alignItems="center" gap={1.5}>
-                      📝 CV
+                      <FaFilePdf /> CV
                     </Link>
                     <Link href="https://scholar.google.com/citations?user=4Z5gV_0AAAAJ&hl=en&oi=ao"
                       isExternal bg="rgba(255, 255, 255, 0.6)" backdropFilter="blur(12px)"
-                      color="black" px={3} py={1.5} borderRadius="md" border="1.5px solid"
+                      color="black" px={3} py={1} borderRadius="md" border="1.5px solid"
                       borderColor="rgba(0, 0, 0, 0.15)" fontSize="md" fontWeight="semibold"
                       boxShadow="0 2px 8px rgba(0, 0, 0, 0.1)"
                       _hover={{ bg: "rgba(255, 255, 255, 0.8)", boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)" }}
                       display="inline-flex" alignItems="center" gap={1.5}>
-                      🎓 Scholar
+                      <SiGooglescholar /> Scholar
                     </Link>
                     <Link href="https://github.com/annuszulfiqar2021"
                       isExternal bg="rgba(255, 255, 255, 0.6)" backdropFilter="blur(12px)"
-                      color="black" px={3} py={1.5} borderRadius="md" border="1.5px solid"
+                      color="black" px={3} py={1} borderRadius="md" border="1.5px solid"
                       borderColor="rgba(0, 0, 0, 0.15)" fontSize="md" fontWeight="semibold"
                       boxShadow="0 2px 8px rgba(0, 0, 0, 0.1)"
                       _hover={{ bg: "rgba(255, 255, 255, 0.8)", boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)" }}
                       display="inline-flex" alignItems="center" gap={1.5}>
-                      🚀 Github
+                      <FaGithub /> Github
                     </Link>
                     <Link href="mailto:zulfiqaa@umich.edu"
                       bg="rgba(255, 255, 255, 0.6)" backdropFilter="blur(12px)"
-                      color="black" px={3} py={1.5} borderRadius="md" border="1.5px solid"
+                      color="black" px={3} py={1} borderRadius="md" border="1.5px solid"
                       borderColor="rgba(0, 0, 0, 0.15)" fontSize="md" fontWeight="semibold"
                       boxShadow="0 2px 8px rgba(0, 0, 0, 0.1)"
                       _hover={{ bg: "rgba(255, 255, 255, 0.8)", boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)" }}
                       display="inline-flex" alignItems="center" gap={1.5}>
-                      📬 Email
+                      <FaEnvelope /> Email
                     </Link>
                     <Link href="https://www.linkedin.com/in/annuszulfiqar/"
                       isExternal bg="rgba(255, 255, 255, 0.6)" backdropFilter="blur(12px)"
-                      color="black" px={3} py={1.5} borderRadius="md" border="1.5px solid"
+                      color="black" px={3} py={1} borderRadius="md" border="1.5px solid"
                       borderColor="rgba(0, 0, 0, 0.15)" fontSize="md" fontWeight="semibold"
                       boxShadow="0 2px 8px rgba(0, 0, 0, 0.1)"
                       _hover={{ bg: "rgba(255, 255, 255, 0.8)", boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)" }}
                       display="inline-flex" alignItems="center" gap={1.5}>
-                      💼 LinkedIn
+                      <FaLinkedin /> LinkedIn
                     </Link>
                     <Link href="https://dblp.org/pid/255/7879.html"
                       isExternal bg="rgba(255, 255, 255, 0.6)" backdropFilter="blur(12px)"
-                      color="black" px={3} py={1.5} borderRadius="md" border="1.5px solid"
+                      color="black" px={3} py={1} borderRadius="md" border="1.5px solid"
                       borderColor="rgba(0, 0, 0, 0.15)" fontSize="md" fontWeight="semibold"
                       boxShadow="0 2px 8px rgba(0, 0, 0, 0.1)"
                       _hover={{ bg: "rgba(255, 255, 255, 0.8)", boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)" }}
                       display="inline-flex" alignItems="center" gap={1.5}>
-                      📋 DBLP
+                      <FaDatabase /> DBLP
                     </Link>
                   </HStack>
                 </VStack>
