@@ -44,14 +44,14 @@ export default function Home() {
                 <VStack spacing={6} align="start">
                   <Heading
                     as="h1"
-                    fontSize={{ base: '3xl', md: '4xl' }}
+                    fontSize={{ base: '4xl', md: '5xl' }}
                     fontWeight="900"
                     color="black"
                   >
                     Annus Zulfiqar
                   </Heading>
 
-                  <Text fontSize="md" lineHeight="1.8" color="black">
+                  <Text fontSize="lg" lineHeight="1.8" color="black">
                     I'm a PhD candidate in the Computer Science and Engineering department at the
                     University of Michigan, Ann Arbor, advised by professor{' '}
                     <Link href="https://gitlab.com/mshahbaz/mshahbaz.gitlab.io/-/wikis/home"
@@ -63,7 +63,7 @@ export default function Home() {
                     and adapt quickly to dynamic network conditions.
                   </Text>
 
-                  <HStack spacing={4} flexWrap="wrap" fontSize="md">
+                  <HStack spacing={4} flexWrap="wrap" fontSize="lg">
                     <Link href="https://annuszulfiqar2021.github.io/files/AnnusZulfiqarCV.pdf"
                       color="#204C8E" textDecoration="underline" isExternal>
                       📝Academic CV
@@ -99,7 +99,7 @@ export default function Home() {
       {/* Publications Section - normal cream background */}
       <Container maxW="1100px" px={4} py={12}>
         <VStack spacing={0} align="stretch">
-            <Heading as="h1" fontSize={{ base: '3xl', md: '4xl' }} fontWeight="900" color="black" mb={8}>
+            <Heading as="h1" fontSize={{ base: '4xl', md: '5xl' }} fontWeight="900" color="black" mb={8}>
               Publications
             </Heading>
 
@@ -119,23 +119,23 @@ export default function Home() {
               </GridItem>
               <GridItem>
                 <VStack align="start" spacing={2}>
-                  <Heading as="h3" fontSize="2xl" fontWeight="900" color="black">
+                  <Heading as="h3" fontSize="3xl" fontWeight="900" color="black">
                     PhD Dissertation
                   </Heading>
-                  <Heading as="h4" fontSize="xl" fontWeight="bold" color="black">
+                  <Heading as="h4" fontSize="2xl" fontWeight="bold" color="black">
                     Rearchitecting the End Host Network for the Terabit Per Second Era
                   </Heading>
-                  <Text fontSize="md" fontWeight="normal" fontStyle="italic">
+                  <Text fontSize="lg" fontWeight="normal" fontStyle="italic">
                     Annus Zulfiqar
                   </Text>
                   <HStack spacing={2} flexWrap="wrap">
                     <Link href="https://annuszulfiqar2021.github.io/papers/zulfiqar-dissertation.pdf" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       PDF
                     </Link>
                     <Link href="https://annuszulfiqar2021.github.io/papers/final-defense-v2.0.pdf" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       Slides
                     </Link>
@@ -159,34 +159,34 @@ export default function Home() {
               </GridItem>
               <GridItem>
                 <VStack align="start" spacing={2}>
-                  <Heading as="h3" fontSize="2xl" fontWeight="900" color="black">
+                  <Heading as="h3" fontSize="3xl" fontWeight="900" color="black">
                     NSDI 2026
                   </Heading>
-                  <Heading as="h4" fontSize="xl" fontWeight="bold" color="black">
+                  <Heading as="h4" fontSize="2xl" fontWeight="bold" color="black">
                     SpliDT: Partitioned Decision Trees for Scalable Stateful Inference at Line Rate
                   </Heading>
-                  <Text fontSize="md" fontWeight="normal">
+                  <Text fontSize="lg" fontWeight="normal">
                     Murayyiam Parvez*, <em>Annus Zulfiqar*</em>, Roman Beltiukov, Shir Landau-Feibish, Walter Willinger, Arpit Gupta, Muhammad Shahbaz{' '}
                     <Text as="span" fontWeight="normal" fontStyle="italic">(*co-primary author)</Text>
                   </Text>
                   <HStack spacing={2} flexWrap="wrap">
                     <Link href="https://annuszulfiqar2021.github.io/papers/splidt-cr.pdf" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       Paper
                     </Link>
                     <Link href="https://annuszulfiqar2021.github.io/papers/splidt-poster.pdf" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       Extended Abstract
                     </Link>
                     <Link href="https://annuszulfiqar2021.github.io/papers/branchpipe-nsdi.pdf" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       Poster
                     </Link>
                     <Link href="https://dl.acm.org/doi/epdf/10.1145/3718958.3750475" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       SIGCOMM Shorts
                     </Link>
@@ -210,18 +210,18 @@ export default function Home() {
               </GridItem>
               <GridItem>
                 <VStack align="start" spacing={2}>
-                  <Heading as="h3" fontSize="2xl" fontWeight="900" color="black">
+                  <Heading as="h3" fontSize="3xl" fontWeight="900" color="black">
                     ARXIV 2025
                   </Heading>
-                  <Heading as="h4" fontSize="xl" fontWeight="bold" color="black">
+                  <Heading as="h4" fontSize="2xl" fontWeight="bold" color="black">
                     OptiNIC: A Resilient and Tail-Optimal RDMA NIC for Distributed ML Workloads
                   </Heading>
-                  <Text fontSize="md" fontWeight="normal">
+                  <Text fontSize="lg" fontWeight="normal">
                     Ertza Warraich, Ali Imran, <em>Annus Zulfiqar</em>, Shay Vargaftik, Sonia Fahmy, Muhammad Shahbaz
                   </Text>
                   <HStack spacing={2} flexWrap="wrap">
                     <Link href="https://arxiv.org/abs/2512.22743" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       Paper
                     </Link>
@@ -245,21 +245,21 @@ export default function Home() {
               </GridItem>
               <GridItem>
                 <VStack align="start" spacing={2}>
-                  <Heading as="h3" fontSize="2xl" fontWeight="900" color="black">
+                  <Heading as="h3" fontSize="3xl" fontWeight="900" color="black">
                     IEEE CAL 2025
                   </Heading>
-                  <Heading as="h4" fontSize="xl" fontWeight="bold" color="black">
+                  <Heading as="h4" fontSize="2xl" fontWeight="bold" color="black">
                     Reimagining RDMA Through the Lens of ML
                   </Heading>
-                  <Text fontSize="md" fontWeight="normal">
+                  <Text fontSize="lg" fontWeight="normal">
                     Ertza Warraich, Ali Imran, <em>Annus Zulfiqar</em>, Shay Vargaftik, Sonia Fahmy, and Muhammad Shahbaz
                   </Text>
-                  <Badge colorScheme="orange" fontSize="lg" mb={1}>
+                  <Badge colorScheme="orange" fontSize="xl" mb={1}>
                     🎖️ Broadcom Research Award
                   </Badge>
                   <HStack spacing={2} flexWrap="wrap">
                     <Link href="https://www.computer.org/csdl/journal/ca/5555/01/11214426/2b1fldkBhXW" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       Paper
                     </Link>
@@ -283,23 +283,23 @@ export default function Home() {
               </GridItem>
               <GridItem>
                 <VStack align="start" spacing={2}>
-                  <Heading as="h3" fontSize="2xl" fontWeight="900" color="black">
+                  <Heading as="h3" fontSize="3xl" fontWeight="900" color="black">
                     SIGCOMM 2025 Poster
                   </Heading>
-                  <Heading as="h4" fontSize="xl" fontWeight="bold" color="black">
+                  <Heading as="h4" fontSize="2xl" fontWeight="bold" color="black">
                     Kairo: Incremental View Maintenance for Scalable Virtual Switch Caching
                   </Heading>
-                  <Text fontSize="md" fontWeight="normal">
+                  <Text fontSize="lg" fontWeight="normal">
                     <em>Annus Zulfiqar</em>, Ben Pfaff, Gianni Antichi, Muhammad Shahbaz
                   </Text>
                   <HStack spacing={2} flexWrap="wrap">
                     <Link href="https://dl.acm.org/doi/10.1145/3744969.3748406" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       Extended Abstract
                     </Link>
                     <Link href="https://annuszulfiqar2021.github.io/papers/sigcomm-2025-kairo-poster.pdf" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       Poster
                     </Link>
@@ -323,72 +323,72 @@ export default function Home() {
               </GridItem>
               <GridItem>
                 <VStack align="start" spacing={2}>
-                  <Heading as="h3" fontSize="2xl" fontWeight="900" color="black">
+                  <Heading as="h3" fontSize="3xl" fontWeight="900" color="black">
                     ASPLOS 2025
                   </Heading>
-                  <Heading as="h4" fontSize="xl" fontWeight="bold" color="black">
+                  <Heading as="h4" fontSize="2xl" fontWeight="bold" color="black">
                     Gigaflow: Pipeline-Aware Sub-Traversal Caching for Modern SmartNICs
                   </Heading>
-                  <Text fontSize="md" fontWeight="normal">
+                  <Text fontSize="lg" fontWeight="normal">
                     <em>Annus Zulfiqar</em>, Ali Imran, Venkat Kunaparaju, Ben Pfaff, Gianni Antichi, Muhammad Shahbaz
                   </Text>
                   <HStack spacing={2} flexWrap="wrap">
                     <Link href="https://dl.acm.org/doi/10.1145/3676641.3716000" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       Paper
                     </Link>
                     <Link href="https://github.com/gigaflow-vswitch" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       Code
                     </Link>
                     <Link href="https://www.youtube.com/watch?v=tewxcn6uBHY" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       Talk-20min
                     </Link>
                     <Link href="https://www.youtube.com/watch?v=59BQcbSxgRo" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       Talk-40min
                     </Link>
                     <Link href="https://annuszulfiqar2021.github.io/papers/gigaflow-poster-nsdi2025.pdf" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       Extended Abstract
                     </Link>
                     <Link href="https://annuszulfiqar2021.github.io/papers/gigaflow-nsdi-poster.pdf" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       Poster
                     </Link>
                   </HStack>
                   <Box mt={2}>
-                    <Text fontSize="md" fontWeight="normal" mb={2}>Media Coverage:</Text>
+                    <Text fontSize="lg" fontWeight="normal" mb={2}>Media Coverage:</Text>
                     <HStack spacing={2} flexWrap="wrap">
                       <Link href="https://p4.org/gigaflow-modern-smartnics/" isExternal
-                        bg="blue.600" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                        bg="blue.600" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                         _hover={{ bg: "blue.500" }} display="inline-block">
                         P4.org
                       </Link>
                       <Link href="https://cse.engin.umich.edu/stories/streamlining-cloud-traffic-with-a-gigaflow-cache" isExternal
-                        bg="blue.600" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                        bg="blue.600" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                         _hover={{ bg: "blue.500" }} display="inline-block">
                         UMich CSE
                       </Link>
                       <Link href="https://danglingpointers.substack.com/p/gigaflow-pipeline-vswitch-smartnic" isExternal
-                        bg="blue.600" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                        bg="blue.600" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                         _hover={{ bg: "blue.500" }} display="inline-block">
                         Dangling Pointers
                       </Link>
                       <Link href="https://techxplore.com/news/2025-04-gigaflow-cache-cloud-traffic-higher.html" isExternal
-                        bg="blue.600" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                        bg="blue.600" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                         _hover={{ bg: "blue.500" }} display="inline-block">
                         TechXplore
                       </Link>
                       <Link href="https://knowridge.com/2025/04/scientists-boost-cloud-speed-with-new-gigaflow-memory-system/" isExternal
-                        bg="blue.600" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                        bg="blue.600" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                         _hover={{ bg: "blue.500" }} display="inline-block">
                         Knowridge
                       </Link>
@@ -413,18 +413,18 @@ export default function Home() {
               </GridItem>
               <GridItem>
                 <VStack align="start" spacing={2}>
-                  <Heading as="h3" fontSize="2xl" fontWeight="900" color="black">
+                  <Heading as="h3" fontSize="3xl" fontWeight="900" color="black">
                     SIGCOMM CCR 2023
                   </Heading>
-                  <Heading as="h4" fontSize="xl" fontWeight="bold" color="black">
+                  <Heading as="h4" fontSize="2xl" fontWeight="bold" color="black">
                     The Slow Path Needs An Accelerator Too!
                   </Heading>
-                  <Text fontSize="md" fontWeight="normal">
+                  <Text fontSize="lg" fontWeight="normal">
                     <em>Annus Zulfiqar</em>, Ben Pfaff, William Tu, Gianni Antichi, Muhammad Shahbaz
                   </Text>
                   <HStack spacing={2} flexWrap="wrap">
                     <Link href="https://dl.acm.org/doi/abs/10.1145/3594255.3594259" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       Paper
                     </Link>
@@ -448,26 +448,26 @@ export default function Home() {
               </GridItem>
               <GridItem>
                 <VStack align="start" spacing={2}>
-                  <Heading as="h3" fontSize="2xl" fontWeight="900" color="black">
+                  <Heading as="h3" fontSize="3xl" fontWeight="900" color="black">
                     ASPLOS 2023
                   </Heading>
-                  <Heading as="h4" fontSize="xl" fontWeight="bold" color="black">
+                  <Heading as="h4" fontSize="2xl" fontWeight="bold" color="black">
                     Homunculus: Auto-Generating Efficient Data-Plane ML Pipelines for Datacenter Networks
                   </Heading>
-                  <Text fontSize="md" fontWeight="normal">
+                  <Text fontSize="lg" fontWeight="normal">
                     Tushar Swamy, <em>Annus Zulfiqar</em>, Luigi Nardi, Muhammad Shahbaz, Kunle Olukotun
                   </Text>
-                  <Badge colorScheme="orange" fontSize="lg" mb={1}>
+                  <Badge colorScheme="orange" fontSize="xl" mb={1}>
                     🎖️ Distinguished Artifact Award
                   </Badge>
                   <HStack spacing={2} flexWrap="wrap">
                     <Link href="https://dl.acm.org/doi/10.1145/3582016.3582022" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       Paper
                     </Link>
                     <Link href="https://gitlab.com/dataplane-ai/homunculus/artifact-asplos23" isExternal
-                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="sm" fontWeight="medium"
+                      bg="gray.800" color="white" px={3} py={1} borderRadius="md" fontSize="md" fontWeight="medium"
                       _hover={{ bg: "gray.700" }} display="inline-block">
                       Code
                     </Link>
