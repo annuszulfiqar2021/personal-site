@@ -285,7 +285,7 @@ export default function Home() {
                   <Text fontSize="lg" fontWeight="normal">
                     Ertza Warraich, Ali Imran, <em>Annus Zulfiqar</em>, Shay Vargaftik, Sonia Fahmy, and Muhammad Shahbaz
                   </Text>
-                  <Badge colorScheme="orange" fontSize="xl" mb={1}>
+                  <Badge colorScheme="orange" fontSize="lg" mb={1}>
                     🎖️ Broadcom Research Award
                   </Badge>
                   <HStack spacing={2} flexWrap="wrap">
@@ -488,7 +488,7 @@ export default function Home() {
                   <Text fontSize="lg" fontWeight="normal">
                     Tushar Swamy, <em>Annus Zulfiqar</em>, Luigi Nardi, Muhammad Shahbaz, Kunle Olukotun
                   </Text>
-                  <Badge colorScheme="orange" fontSize="xl" mb={1}>
+                  <Badge colorScheme="orange" fontSize="lg" mb={1}>
                     🎖️ Distinguished Artifact Award
                   </Badge>
                   <HStack spacing={2} flexWrap="wrap">
