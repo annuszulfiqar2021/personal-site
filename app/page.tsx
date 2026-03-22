@@ -27,7 +27,7 @@ export default function Home() {
               border="3px solid"
               borderColor="black"
               overflow="hidden"
-              boxShadow="8px 8px 0 0 rgba(0, 0, 0, 1)"
+              boxShadow="6px 6px 0 0 rgba(0, 0, 0, 1)"
             >
             <Grid templateColumns={{ base: '1fr', md: '25% 75%' }} minH="440px">
               {/* Profile Photo */}
@@ -64,30 +64,60 @@ export default function Home() {
                     and adapt quickly to dynamic network conditions.
                   </Text>
 
-                  <HStack spacing={4} flexWrap="wrap" fontSize="lg" justifyContent="center">
+                  <HStack spacing={3} flexWrap="wrap" fontSize="lg" justifyContent="center">
                     <Link href="https://annuszulfiqar2021.github.io/files/AnnusZulfiqarCV.pdf"
-                      color="#204C8E" textDecoration="underline" isExternal>
-                      📝Academic CV
+                      isExternal bg="rgba(255, 255, 255, 0.6)" backdropFilter="blur(12px)"
+                      color="black" px={3} py={1.5} borderRadius="md" border="1.5px solid"
+                      borderColor="rgba(0, 0, 0, 0.15)" fontSize="md" fontWeight="semibold"
+                      boxShadow="0 2px 8px rgba(0, 0, 0, 0.1)"
+                      _hover={{ bg: "rgba(255, 255, 255, 0.8)", boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)" }}
+                      display="inline-flex" alignItems="center" gap={1.5}>
+                      📝 CV
                     </Link>
                     <Link href="https://scholar.google.com/citations?user=4Z5gV_0AAAAJ&hl=en&oi=ao"
-                      color="#204C8E" textDecoration="underline" isExternal>
-                      🎓Google Scholar
+                      isExternal bg="rgba(255, 255, 255, 0.6)" backdropFilter="blur(12px)"
+                      color="black" px={3} py={1.5} borderRadius="md" border="1.5px solid"
+                      borderColor="rgba(0, 0, 0, 0.15)" fontSize="md" fontWeight="semibold"
+                      boxShadow="0 2px 8px rgba(0, 0, 0, 0.1)"
+                      _hover={{ bg: "rgba(255, 255, 255, 0.8)", boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)" }}
+                      display="inline-flex" alignItems="center" gap={1.5}>
+                      🎓 Scholar
                     </Link>
                     <Link href="https://github.com/annuszulfiqar2021"
-                      color="#204C8E" textDecoration="underline" isExternal>
-                      🚀Github
+                      isExternal bg="rgba(255, 255, 255, 0.6)" backdropFilter="blur(12px)"
+                      color="black" px={3} py={1.5} borderRadius="md" border="1.5px solid"
+                      borderColor="rgba(0, 0, 0, 0.15)" fontSize="md" fontWeight="semibold"
+                      boxShadow="0 2px 8px rgba(0, 0, 0, 0.1)"
+                      _hover={{ bg: "rgba(255, 255, 255, 0.8)", boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)" }}
+                      display="inline-flex" alignItems="center" gap={1.5}>
+                      🚀 Github
                     </Link>
                     <Link href="mailto:zulfiqaa@umich.edu"
-                      color="#204C8E" textDecoration="underline">
-                      📬Email
+                      bg="rgba(255, 255, 255, 0.6)" backdropFilter="blur(12px)"
+                      color="black" px={3} py={1.5} borderRadius="md" border="1.5px solid"
+                      borderColor="rgba(0, 0, 0, 0.15)" fontSize="md" fontWeight="semibold"
+                      boxShadow="0 2px 8px rgba(0, 0, 0, 0.1)"
+                      _hover={{ bg: "rgba(255, 255, 255, 0.8)", boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)" }}
+                      display="inline-flex" alignItems="center" gap={1.5}>
+                      📬 Email
                     </Link>
                     <Link href="https://www.linkedin.com/in/annuszulfiqar/"
-                      color="#204C8E" textDecoration="underline" isExternal>
-                      💼LinkedIn
+                      isExternal bg="rgba(255, 255, 255, 0.6)" backdropFilter="blur(12px)"
+                      color="black" px={3} py={1.5} borderRadius="md" border="1.5px solid"
+                      borderColor="rgba(0, 0, 0, 0.15)" fontSize="md" fontWeight="semibold"
+                      boxShadow="0 2px 8px rgba(0, 0, 0, 0.1)"
+                      _hover={{ bg: "rgba(255, 255, 255, 0.8)", boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)" }}
+                      display="inline-flex" alignItems="center" gap={1.5}>
+                      💼 LinkedIn
                     </Link>
                     <Link href="https://dblp.org/pid/255/7879.html"
-                      color="#204C8E" textDecoration="underline" isExternal>
-                      📋DBLP
+                      isExternal bg="rgba(255, 255, 255, 0.6)" backdropFilter="blur(12px)"
+                      color="black" px={3} py={1.5} borderRadius="md" border="1.5px solid"
+                      borderColor="rgba(0, 0, 0, 0.15)" fontSize="md" fontWeight="semibold"
+                      boxShadow="0 2px 8px rgba(0, 0, 0, 0.1)"
+                      _hover={{ bg: "rgba(255, 255, 255, 0.8)", boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)" }}
+                      display="inline-flex" alignItems="center" gap={1.5}>
+                      📋 DBLP
                     </Link>
                   </HStack>
                 </VStack>
