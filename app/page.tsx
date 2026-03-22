@@ -142,7 +142,7 @@ export default function Home() {
                   alt="PhD Dissertation"
                   borderRadius="md"
                   w="100%"
-                  h="300px"
+                  maxH="300px"
                   objectFit="contain"
                   objectPosition="top"
                   fallbackSrc="https://via.placeholder.com/400x300/fef5e7/204C8E?text=Dissertation"
@@ -183,7 +183,7 @@ export default function Home() {
                   alt="SpliDT"
                   borderRadius="md"
                   w="100%"
-                  h="300px"
+                  maxH="300px"
                   objectFit="contain"
                   objectPosition="top"
                 />
@@ -234,7 +234,7 @@ export default function Home() {
                   alt="OptiNIC"
                   borderRadius="md"
                   w="100%"
-                  h="300px"
+                  maxH="300px"
                   objectFit="contain"
                   objectPosition="top"
                 />
@@ -269,7 +269,7 @@ export default function Home() {
                   alt="IEEE CAL"
                   borderRadius="md"
                   w="100%"
-                  h="300px"
+                  maxH="300px"
                   objectFit="contain"
                   objectPosition="top"
                 />
@@ -307,7 +307,7 @@ export default function Home() {
                   alt="Kairo"
                   borderRadius="md"
                   w="100%"
-                  h="300px"
+                  maxH="300px"
                   objectFit="contain"
                   objectPosition="top"
                 />
@@ -347,7 +347,7 @@ export default function Home() {
                   alt="Gigaflow"
                   borderRadius="md"
                   w="100%"
-                  h="300px"
+                  maxH="300px"
                   objectFit="contain"
                   objectPosition="top"
                 />
@@ -437,7 +437,7 @@ export default function Home() {
                   alt="SlowPath"
                   borderRadius="md"
                   w="100%"
-                  h="300px"
+                  maxH="300px"
                   objectFit="contain"
                   objectPosition="top"
                 />
@@ -472,7 +472,7 @@ export default function Home() {
                   alt="Homunculus"
                   borderRadius="md"
                   w="100%"
-                  h="300px"
+                  maxH="300px"
                   objectFit="contain"
                   objectPosition="top"
                 />
