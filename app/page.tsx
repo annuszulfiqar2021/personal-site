@@ -64,6 +64,13 @@ export default function Home() {
                     . My research is about rethinking data plane architectures and algorithms to
                     build scalable networked systems that overcome traditional resource limitations
                     and adapt quickly to dynamic network conditions.
+                    {' '}Around this central theme, my research has spanned{' '}
+                    <Text as="span" fontWeight="bold">Cloud Networking</Text>
+                    {' '}(SIGCOMM CCR&apos;23, ASPLOS&apos;25),{' '}
+                    <Text as="span" fontWeight="bold">ML for Systems</Text>
+                    {' '}(NSDI&apos;26, ASPLOS&apos;23), and{' '}
+                    <Text as="span" fontWeight="bold">Systems for ML</Text>
+                    {' '}(IEEE CAL&apos;25, Arxiv&apos;25).
                   </Text>
 
                   <HStack spacing={3} flexWrap="wrap" fontSize="lg" justifyContent="center">
